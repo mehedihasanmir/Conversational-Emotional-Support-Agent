@@ -59,7 +59,7 @@ The agent processes information in a continuous, optimized loop. The core logic 
 
 ## 🛠️ Technology Stack
 
--   **Language**: Python 3.10+
+-   **Language**: Python 3.10
 -   **Core Framework**: **LangChain**
 -   **AI Services**:
     -   **OpenAI API**:
@@ -81,7 +81,7 @@ Follow these steps to get the agent running on your local machine.
 
 ### Prerequisites
 
--   **Python 3.10 or later**.
+-   **Python 3.10**.
 -   An **OpenAI API Key**.
 -   **FFmpeg**: A required dependency for `pydub`.
     -   **macOS (via Homebrew)**: `brew install ffmpeg`
@@ -92,19 +92,19 @@ Follow these steps to get the agent running on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your_username/your_repository_name.git](https://github.com/your_username/your_repository_name.git)
-    cd your_repository_name
+    git clone [https://github.com/mehedihasanmir/Conversational-Emotional-Support-Agent.git](https://github.com/mehedihasanmir/Conversational-Emotional-Support-Agent.git)
+    cd Conversational-Emotional-Support-Agent
     ```
 
 2.  **Create and activate a virtual environment:**
     ```bash
     # For macOS/Linux
-    python3 -m venv venv
-    source venv/bin/activate
+    python3 -m venv myenv
+    source myenv/bin/activate
 
     # For Windows
-    python -m venv venv
-    .\venv\Scripts\activate
+    python -m venv myenv
+    .\myenv\Scripts\activate
     ```
 
 3.  **Install the required packages:**
@@ -145,10 +145,9 @@ For the best experience, you may need to tune the Voice Activity Detection (VAD)
 
 -   [ ] **Integrate True Streaming STT/TTS**: Replace batch APIs with streaming services (e.g., Deepgram, ElevenLabs) for radically lower latency.
 -   [ ] **Implement Wake Word Detection**: Add a wake word (e.g., "Hey, Assistant") so the agent isn't always listening.
--   [ ] **Develop a GUI**: Build a graphical user interface using a framework like Tkinter or a web interface with FastAPI.
 -   [ ] **Add Long-Term Memory**: Use a vector database to give the agent memory of past conversations for more personalized interactions.
 
-See the [open issues](https://github.com/your_username/your_repository_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/mehedihasanmir/Conversational-Emotional-Support-Agent/issues) for a full list of proposed features (and known issues).
 
 ---
 
@@ -169,4 +168,4 @@ Don't forget to give the project a star! Thanks again!
 
 ## ⚖️ License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License.
