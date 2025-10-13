@@ -1,0 +1,8 @@
+openai
+sounddevice
+numpy
+scipy
+python-dotenv
+pydub
+langchain
+langchain-openai
